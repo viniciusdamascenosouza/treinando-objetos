@@ -1,16 +1,27 @@
 var pessoa = {
     nome: "Luma",
-    profissao: "Engenheira"
+    profissão: "Engenheira",
 };
 
-pessoa.telefone = "920293092"
 
+console.log(pessoa.nome);
 
+console.log(pessoa.telefone);
 
-var novaPessoa = {
-    nome: "marcelo"
-};
+pessoa.telefone = "11 22334444"
+
+console.log(pessoa.telefone);
+
+pessoa.nome = "Luma Silva"
+
+console.log(pessoa);
+
+const novaPessoa = {
+    nome: "Pedro Souza",
+    profissão: "Pintor",
+    telefone: "9988776666",
+}
 
 pessoa = novaPessoa;
 
-console.log(novaPessoa);
+console.log(pessoa)

@@ -4,7 +4,6 @@ const cliente = {
     cpf: "82938372982",
     email: "joao@dominio.com",
     tipo: "cliente VIP",
-    teste: "teste"
 }
 
 console.log(`${cliente["nome"]} tem ${cliente["idade"]} anos de idade, seu email é ${cliente["email"]}. ${cliente.nome} é um ${cliente["tipo"]}.`);
